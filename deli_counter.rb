@@ -17,7 +17,7 @@ def line(katz_deli)
       array<< "#{index+1}. #{name} "
     end
     string=array.join(" ")
-    puts "The line is currently: #{array}"
+    puts "The line is currently: #{string}"
   end
 end
 
