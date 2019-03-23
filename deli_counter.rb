@@ -13,8 +13,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     array=[]
-    katz_deli.each_with_index do |name,index|
-      array<< "#{index+1}. #{name}"
+    katz_deli.each_with_index {|name,index| array<< "#{index+1}. #{name}"}
     end
     string=array.join(" ")
     puts "The line is currently: #{string}"
