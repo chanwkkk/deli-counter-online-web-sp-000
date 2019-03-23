@@ -14,7 +14,7 @@ def line(katz_deli)
   else
     array=[]
     katz_deli.collect.with_index do |name,index|
-      array<< "#{index+1}. #{name} "
+      array<< "#{index+1}. #{name}"
     end
     string=array.join
     puts "The line is currently: #{string}"
