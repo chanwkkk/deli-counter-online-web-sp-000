@@ -16,7 +16,7 @@ def line(katz_deli)
     katz_deli.collect.with_index do |name,index|
       array<< "#{index+1}. #{name}"
     end
-    string=array.join
+    string=array.join(" ")
     puts "The line is currently: #{string}"
   end
 end
